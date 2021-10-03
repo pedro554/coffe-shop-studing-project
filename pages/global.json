@@ -1,4 +1,9 @@
 {
     "title": "Projeto Coffee Shop",
-    "description": "Bem vindo ao Projeto Coffee Shop, espero que goste!"
+    "description": "Bem vindo ao Projeto Coffee Shop, espero que goste!",
+    "hours" : [
+        {"day": "Seg a Sex", "time": "09:00 às 15:00"},
+        {"day": "Sábado", "time": "08:00 às 12:00"},
+        {"day": "Domingo", "time": "Fechado"}
+    ]
 }

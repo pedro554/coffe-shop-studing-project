@@ -13,5 +13,8 @@
             {"image":"/images/black-coffee.png", "capition": "Expresso"},
             {"image":"/images/tea.jpg", "capition": "Chá"}
         ]
+    },
+    "order": {
+        "image": "/images/pexels-pratik-gupta-2748537.jpg"
     }
 }
