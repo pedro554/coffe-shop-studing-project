@@ -16,5 +16,13 @@
     },
     "order": {
         "image": "/images/pexels-pratik-gupta-2748537.jpg"
+    },
+    "team": {
+        "header": "Time",
+        "subheader": "Desenvolvedores",
+        "members": [
+            {"name": "Pedro Viero", "image": "/images/eu.png", "quote": "Projeto criado para estudar Node.js", "position": "Dev Back-End"}
+        ],
+        "bg_image": "/images/pexels-iain-2267909.jpg"
     }
 }

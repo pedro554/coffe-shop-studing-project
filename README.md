@@ -26,3 +26,6 @@ To build for production, run build:
 ```
 $ npm run build
 ```
+
+---DEVLEMBRAR---
+Talvez aconteça um error, basta adicionar {{{cdn}}} antes das imagens que estão no banco de dados e não na pasta public
