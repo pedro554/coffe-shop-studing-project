@@ -1,27 +1,27 @@
 # coffe-shop
 
-This project was built with Turbo 360. To learn more, click here: https://www.turbo360.co
+Este projeto foi construído com o Turbo 360. Para saber mais, clique aqui: https://www.turbo360.co
 
-## Instructions
-After cloning into repo, cd to project root directory and install dependencies:
+## Instruções
+Depois de clonar no repo, faça cd para projetar o diretório raiz e instale as dependências:
 
 ```
 $ npm install
 ```
 
-To run dev server, install Turbo CLI globally:
+Para executar o servidor dev, instale o Turbo CLI globalmente:
 
 ```
-$ sudo npm install turbo-cli -g
+$ npm install turbo-cli -g
 ```
 
-Then run devserver from project root directory:
+Em seguida, execute devserver a partir do diretório raiz do projeto:
 
 ```
 $ turbo devserver
 ```
 
-To build for production, run build:
+Para construir para produção, execute build:
 
 ```
 $ npm run build
