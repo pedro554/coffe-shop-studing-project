@@ -5,5 +5,5 @@ const OrderController = require('./OrderController')
 module.exports = {
   post: PostController,
   item: ItemController,
-  order: OrderController
+  order: OrderController,
 }

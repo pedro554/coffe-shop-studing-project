@@ -23,6 +23,6 @@
         "members": [
             {"name": "Pedro Viero", "image": "/images/eu.png", "quote": "Projeto criado para estudar Node.js", "position": "Dev Back-End"}
         ],
-        "bg_image": "/images/pexels-iain-2267909.jpg"
+        "bg_image": "images/pexels-polina-tankilevitch-4109744.jpg"
     }
 }

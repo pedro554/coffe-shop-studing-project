@@ -11,11 +11,6 @@ router.get('/', async (req, res) => {
     res.render('home', data)
 })
 
-router.get('/blog', (req, res) => {
-
-    res.render('blog', req.context)
-})
-
 router.get('/items', async (req, res) => {
     const filters = req.query
     const itemCtr = controllers.item.instance()
@@ -28,6 +23,15 @@ router.post('/order', async (req, res) => {
     const orderCtr = controllers.order.instance()
     const order = await orderCtr.post(orderData)
     res.json(order)
+})
+
+router.get('/produtos', async(req, res) => {
+    const data = req.context
+    const productsCtr = controllers.item.instance()
+    data.cafe = await productsCtr.get({category: 'cafe'})
+    data.cha = await productsCtr.get({category: 'cha'})
+    data.pastries = await productsCtr.get({category: 'pastries'})
+    res.render('menu', data)
 })
 
 module.exports = router
